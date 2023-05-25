@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nameBarContainer {
+  width: 100vw;
+  height: 64px;
+}
+
+.nameBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.nameBar > li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #036635;
+  font-weight: 600;
+}
